@@ -10,16 +10,18 @@
 <body>
     <nav>
         <div class="buttonsDiv">
-            <button id="startBtn" onclick="clickStart()">Start</button>
-            <button id="stopBtn" onclick="clickStop()">Stop</button>
+            <button id="startBtn" onclick="startOver()">Start</button>
+            <button id="stopBtn" onclick="stopGame()">Stop</button>
+            <span id="score"></span>
         </div>
     </nav>
 
 
     <div id="mainContent">
-        <div id="topBarrier"></div>
-        <div id="bottomBarrier"></div>
         <div id="player"></div>
+        <div id="topBarrier" class="barrier"></div>
+        <div id="bottomBarrier" class="barrier"></div>
+        
     </div>
 
    
