@@ -1,11 +1,25 @@
 nav {
-    height: 50px;
-    background-color: aqua;
+    height:auto;
+    background-color: mediumturquoise;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
 }
+#buttonsDiv{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
 #mainContent {
     height: 400px;
-    width: 70%;
-    background-color: yellow;
+    width: 85%;
+    background-color: rgb(255, 196, 0);
+    border-style:ridge;
+    border-radius: 5px;
     margin:auto;
     overflow: hidden;
 }
